@@ -6,7 +6,81 @@
 }
 
 /* COMMONS */
-img { 
+img {
     width: 100%;
 }
 
+.contenitor, .conteiner {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flex-orizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+
+}
+
+
+/* HEADER'S CLASSES */
+
+/* JUMBOTRON */
+.jumbotron {
+    height: 60px;
+    width: 100%;
+    background-color: orangered;
+}
+
+/* GENDER LIST NAV */
+.list {
+    list-style-type: none; 
+    height: 60px;
+}
+
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* LOGO IMAGE */
+
+.logo {
+    /* debug */
+    border: 2px green solid;   
+    width: 10%; 
+}
+
+.profile, .gender {
+    /* debug */
+    border: 2px solid green;
+}
+
+
+
+/* MAIN SECTION */
+
+.secondary {
+    display: none;
+}
+
+
+.col {
+    width: calc((100% / 3) - (40px / 3));
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+        
+}
+
+.card {
+    position: relative;
+}
