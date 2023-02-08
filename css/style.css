@@ -65,7 +65,11 @@ img {
 
 /* MAIN SECTION */
 
-.secondary {
+main {
+    margin-top: 80px;
+}
+
+img.secondary {
     display: none;
 }
 
@@ -83,4 +87,18 @@ img {
 
 .card {
     position: relative;
+}
+
+/* LABEL */
+
+.discount {
+    color: white;
+    background-color: red;
+    padding: 3px 8px;
+}
+
+.green {
+    color: white;
+    background-color: green;
+    padding: 3px 8px;
 }
