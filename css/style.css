@@ -10,7 +10,7 @@ img {
     width: 100%;
 }
 
-.contenitor, .conteiner {
+.conteiner {
     width: 70%;
     max-width: 1100px;
     margin: 0 auto;
@@ -66,7 +66,8 @@ img {
 /* MAIN SECTION */
 
 main {
-    margin-top: 80px;
+    margin: 80px 0 200px;
+    
 }
 
 img.secondary {
@@ -161,4 +162,62 @@ span.o-p {
 
 .card:hover .primary{
     display: none;
+}
+
+
+
+/* FOOTER  */
+/* Ho pensato che l'unico H1 valido sarebbe stato questo */
+footer h1 {
+    font-size: 1.5rem;
+}
+
+footer * {
+    text-decoration: none;
+    color: white;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer {
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.mainfooter-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.left-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.left-ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 0.7rem;
+}
+
+.right-ul {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.right-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+
 }
