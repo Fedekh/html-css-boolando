@@ -33,41 +33,73 @@ img {
     height: 60px;
     width: 100%;
     background-color: orangered;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 /* GENDER LIST NAV */
-.list {
-    list-style-type: none;
+.gender {
     height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    color: white;
+}
+
+header li {
+    list-style-type: none;
 }
 
 
-.list a {
+
+header a {
     text-decoration: none;
+    list-style-type: none;
     color: white;
+    
+}
+
+.flex-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
 /* LOGO IMAGE */
 
 .logo {
-    /* debug */
-    border: 2px green solid;
-    width: 10%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: 60px;
 }
 
-.profile, .gender {
-    /* debug */
-    border: 2px solid green;
+.flex-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+.logo img {
+    width: 30%;
+    margin: 0 auto;
+    align-self: center;
+}
+
+
+
+/* NAV PROFILE */
+
+.profile ul {
+    line-height: 60px;
+}
 
 
 /* MAIN SECTION */
 
 main {
-    margin: 80px 0 200px;
-    
+    margin: 150px 0 200px;
+   
 }
 
 img.secondary {
@@ -219,5 +251,4 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     gap: 15px;
-
 }
