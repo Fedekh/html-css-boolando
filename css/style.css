@@ -190,7 +190,7 @@ span.o-p {
 /* MAGIC IMG */
 
 .card:hover .secondary {
-    display: block;
+    display: inline-block;
 }
 
 .card:hover .primary{
