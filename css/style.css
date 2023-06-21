@@ -35,7 +35,7 @@ img {
     background-color: orangered;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 999;
     box-shadow: 3px 0 3px 3px rgba(0, 0, 0, 0.4);
 }
 
